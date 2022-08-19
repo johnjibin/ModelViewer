@@ -9,6 +9,13 @@ body {
   height: 100vh;
   background-color:#BCEBFC;
 }
+h1
+{
+  color:red;
+  font-style:bold;
+  font-family:Garamond, serif;
+  padding-left: 10px;
+}
 
 model-viewer {
   width: 100%;
