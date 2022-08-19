@@ -7,4 +7,22 @@
   <h1>Hello WER AR</h1>
   Hello
 </body>
+<model-viewer src="RobotExpressive.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="poster.webp" shadow-intensity="1" autoplay>
+    <button class="Hotspot" slot="hotspot-2" data-position="1.0192819873696395m 1.4603106647546213m 0.8737322749304587m" data-normal="-0.6639078605794374m -0.5270830147910602m 0.5304807707915543m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Hand</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="0.6525707121034559m 0.4090319422763067m 0.2283377518049734m" data-normal="-0.00538079873020927m -0.9784196714984715m 0.20655748214443354m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Leg
+        </div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
+
 </html>
